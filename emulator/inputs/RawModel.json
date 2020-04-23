@@ -1,0 +1,468 @@
+{
+  "_inputVariables": [
+    {
+      "displayUnit": "mole",
+      "varRef": "",
+      "status": "NoStatus",
+      "isOutput": "DoWrite",
+      "scale": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "comp": "DefaultComp",
+      "molarMass": null,
+      "initCond": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "varDesc": "",
+      "name": "predator",
+      "solvingUnit": "mole",
+      "vCalibOpts": {
+        "_inputTag": "ModelIntrinsic",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "tolerance": 1
+    },
+    {
+      "displayUnit": "mole",
+      "varRef": "",
+      "status": "NoStatus",
+      "isOutput": "DoWrite",
+      "scale": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "comp": "DefaultComp",
+      "molarMass": null,
+      "initCond": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "varDesc": "",
+      "name": "prey",
+      "solvingUnit": "mole",
+      "vCalibOpts": {
+        "_inputTag": "ModelIntrinsic",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "tolerance": 1
+    }
+  ],
+  "_modelParams": [
+    {
+      "_Iuri": "https://en.wikipedia.org/wiki/Time",
+      "_Iname": "time",
+      "_IcalibrationOptions": {
+        "_inputTag": "ModelIntrinsic",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "_Istatus": "NoStatus",
+      "_ImapsTo": null,
+      "_Ivalue": {
+        "tag": "Var",
+        "contents": {
+          "tag": "Parameter",
+          "contents": "time"
+        }
+      },
+      "_Idescription": "Time parameter where Input.value t = t",
+      "_Iunit": "second",
+      "_IisOutput": "DoNotWrite"
+    },
+    {
+      "_Iuri": "",
+      "_Iname": "alpha",
+      "_IcalibrationOptions": {
+        "_inputTag": "ModelIntrinsic",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "_Istatus": "NoStatus",
+      "_ImapsTo": null,
+      "_Ivalue": {
+        "tag": "Const",
+        "contents": 0.6666666666666666
+      },
+      "_Idescription": "",
+      "_Iunit": "1 / second",
+      "_IisOutput": "DoNotWrite"
+    },
+    {
+      "_Iuri": "",
+      "_Iname": "beta",
+      "_IcalibrationOptions": {
+        "_inputTag": "ModelIntrinsic",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "_Istatus": "NoStatus",
+      "_ImapsTo": null,
+      "_Ivalue": {
+        "tag": "Const",
+        "contents": 1.3333333333333333
+      },
+      "_Idescription": "",
+      "_Iunit": "1 / mole / second",
+      "_IisOutput": "DoNotWrite"
+    },
+    {
+      "_Iuri": "",
+      "_Iname": "delta",
+      "_IcalibrationOptions": {
+        "_inputTag": "ModelIntrinsic",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "_Istatus": "NoStatus",
+      "_ImapsTo": null,
+      "_Ivalue": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "_Idescription": "",
+      "_Iunit": "1 / mole / second",
+      "_IisOutput": "DoNotWrite"
+    },
+    {
+      "_Iuri": "",
+      "_Iname": "gamma",
+      "_IcalibrationOptions": {
+        "_inputTag": "ModelIntrinsic",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "_Istatus": "NoStatus",
+      "_ImapsTo": null,
+      "_Ivalue": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "_Idescription": "",
+      "_Iunit": "1 / second",
+      "_IisOutput": "DoNotWrite"
+    }
+  ],
+  "_modelName": "LotkaVolterra",
+  "_shouldCheckUnits": true,
+  "_events": [],
+  "_modelOptions": {
+    "_valMethod": {
+      "_inlinePC": true,
+      "_internalSubstanceUnit": "mole",
+      "_trimNullOdes": true,
+      "_backend": "Simple",
+      "_computeDerivatives": "NoParam",
+      "_internalTimeUnit": "second",
+      "_evaluationMethod": "Haskell"
+    },
+    "_timeOut": -1,
+    "_compileConfig": {
+      "detectNaNs": true
+    },
+    "_extraDumps": 0,
+    "_interpOpts": {
+      "_interpMethod": "Linear",
+      "_rightWing": {
+        "tag": "SameValue"
+      },
+      "_leftWing": {
+        "tag": "NoExtrapolation"
+      }
+    },
+    "_saveOpts": {
+      "_resCompression": "Expanded",
+      "_ovrDisplayUnit": null
+    },
+    "_odeOpts": {
+      "_initStep": 0.0001,
+      "_tolRel": 0.000001,
+      "_solTimes": {
+        "tag": "ExplicitTimes",
+        "contents": [
+          0,
+          0.25,
+          0.5,
+          0.75,
+          1,
+          1.25,
+          1.5,
+          1.75,
+          2,
+          2.25,
+          2.5,
+          2.75,
+          3,
+          3.25,
+          3.5,
+          3.75,
+          4,
+          4.25,
+          4.5,
+          4.75,
+          5,
+          5.25,
+          5.5,
+          5.75,
+          6,
+          6.25,
+          6.5,
+          6.75,
+          7,
+          7.25,
+          7.5,
+          7.75,
+          8,
+          8.25,
+          8.5,
+          8.75,
+          9,
+          9.25,
+          9.5,
+          9.75,
+          10
+        ]
+      },
+      "_maxEvents": 100,
+      "_jacHandling": "ApproxJacobian",
+      "_tolAbs": 0.000001,
+      "_met": "BDFImp"
+    }
+  },
+  "_modelCore": {
+    "bioReactionSet": [
+      {
+        "reacRef": "",
+        "reacIsOutput": "DoNotWrite",
+        "reacNumber": "1",
+        "reacStatus": "Draft",
+        "reacDesc": null,
+        "reacName": "R1",
+        "reacFilter": null,
+        "reactives": {
+          "rightSide": [
+            [
+              "prey",
+              1
+            ],
+            [
+              "predator",
+              1
+            ]
+          ],
+          "leftSide": [
+            [
+              "predator",
+              1
+            ]
+          ],
+          "staticSide": []
+        },
+        "reacKineticLaw": {
+          "tag": "General",
+          "symbolicRateRtL": {
+            "tag": "Const",
+            "contents": 0
+          },
+          "symbolicRateLtR": {
+            "tag": "BinaryNode",
+            "contents": [
+              "Minus",
+              {
+                "tag": "BinaryNode",
+                "contents": [
+                  "Times",
+                  {
+                    "tag": "Var",
+                    "contents": {
+                      "tag": "Parameter",
+                      "contents": "alpha"
+                    }
+                  },
+                  {
+                    "tag": "Var",
+                    "contents": {
+                      "tag": "Reactive",
+                      "contents": "DefaultComp.prey"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "BinaryNode",
+                "contents": [
+                  "Times",
+                  {
+                    "tag": "BinaryNode",
+                    "contents": [
+                      "Times",
+                      {
+                        "tag": "Var",
+                        "contents": {
+                          "tag": "Parameter",
+                          "contents": "beta"
+                        }
+                      },
+                      {
+                        "tag": "Var",
+                        "contents": {
+                          "tag": "Reactive",
+                          "contents": "DefaultComp.prey"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "Var",
+                    "contents": {
+                      "tag": "Reactive",
+                      "contents": "DefaultComp.predator"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "reacRef": "",
+        "reacIsOutput": "DoNotWrite",
+        "reacNumber": "2",
+        "reacStatus": "Draft",
+        "reacDesc": null,
+        "reacName": "R2",
+        "reacFilter": null,
+        "reactives": {
+          "rightSide": [
+            [
+              "prey",
+              1
+            ],
+            [
+              "predator",
+              1
+            ]
+          ],
+          "leftSide": [
+            [
+              "prey",
+              1
+            ]
+          ],
+          "staticSide": []
+        },
+        "reacKineticLaw": {
+          "tag": "General",
+          "symbolicRateRtL": {
+            "tag": "Const",
+            "contents": 0
+          },
+          "symbolicRateLtR": {
+            "tag": "BinaryNode",
+            "contents": [
+              "Minus",
+              {
+                "tag": "BinaryNode",
+                "contents": [
+                  "Times",
+                  {
+                    "tag": "BinaryNode",
+                    "contents": [
+                      "Times",
+                      {
+                        "tag": "Var",
+                        "contents": {
+                          "tag": "Parameter",
+                          "contents": "delta"
+                        }
+                      },
+                      {
+                        "tag": "Var",
+                        "contents": {
+                          "tag": "Reactive",
+                          "contents": "DefaultComp.prey"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "Var",
+                    "contents": {
+                      "tag": "Reactive",
+                      "contents": "DefaultComp.predator"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "BinaryNode",
+                "contents": [
+                  "Times",
+                  {
+                    "tag": "Var",
+                    "contents": {
+                      "tag": "Parameter",
+                      "contents": "gamma"
+                    }
+                  },
+                  {
+                    "tag": "Var",
+                    "contents": {
+                      "tag": "Reactive",
+                      "contents": "DefaultComp.predator"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "odeSet": []
+  },
+  "_modelIdentityHash": [],
+  "_subExpressions": [],
+  "_compartments": [
+    {
+      "_Iuri": "",
+      "_Iname": "DefaultComp",
+      "_IcalibrationOptions": {
+        "_inputTag": "PatientDescriptorKnown",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "_Istatus": "NoStatus",
+      "_ImapsTo": null,
+      "_Ivalue": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "_Idescription": "",
+      "_Iunit": "liter",
+      "_IisOutput": "DoWrite"
+    },
+    {
+      "_Iuri": "",
+      "_Iname": "DefaultComp",
+      "_IcalibrationOptions": {
+        "_inputTag": "PatientDescriptorKnown",
+        "_distribution": null,
+        "_toCalibrate": false
+      },
+      "_Istatus": "NoStatus",
+      "_ImapsTo": null,
+      "_Ivalue": {
+        "tag": "Const",
+        "contents": 1
+      },
+      "_Idescription": "",
+      "_Iunit": "liter",
+      "_IisOutput": "DoWrite"
+    }
+  ]
+}

@@ -1,0 +1,1253 @@
+{
+  "patientScorings": [
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 0
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=0.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 2
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=2.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 4
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=4.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 6
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=6.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 8
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=8.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 10
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=10.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 12
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=12.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 14
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=14.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 16
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=16.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 18
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=18.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 20
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=20.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 22
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=22.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 24
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=24.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 26
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=26.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 28
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=28.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 30
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.prey"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.prey} at t=30.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 0
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=0.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 2
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=2.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 4
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=4.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 6
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=6.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 8
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=8.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 10
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=10.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 12
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=12.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 14
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=14.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 16
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=16.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 18
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=18.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 20
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=20.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 22
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=22.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 24
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=24.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 26
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=26.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 28
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=28.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    },
+    {
+      "status": "NoStatus",
+      "weight": 1,
+      "formula": {
+        "tag": "AtTimeInRange",
+        "contents": [
+          {
+            "tag": "Const",
+            "contents": 30
+          },
+          {
+            "rightDelta": 33,
+            "leftDelta": 2,
+            "target": {
+              "tag": "TargetValue",
+              "contents": 2
+            }
+          },
+          {
+            "tag": "Leaf",
+            "contents": "DefaultComp.predator"
+          }
+        ]
+      },
+      "name": "Key {namespace = Nothing, constituent = DefaultComp.predator} at t=30.0",
+      "condition": {
+        "tag": "CustomAst",
+        "contents": {
+          "tag": "FunApp",
+          "contents": [
+            "AlwaysTrue",
+            []
+          ]
+        }
+      },
+      "eliminatory": false,
+      "desc": null,
+      "ref": ""
+    }
+  ],
+  "scenarioScorings": []
+}

@@ -1,0 +1,44 @@
+{
+  "variables": {
+    "simulation_id": "0"
+  },
+  "data": {
+    "Inputs": {
+      "QuickOverrides": {
+        "inputs": {
+          "DefaultComp.predator": 1,
+          "DefaultComp.prey": 0.3,
+          "alpha": 0.6990992489549348,
+          "delta": 0.7708535858212845,
+          "beta": 0.24676620619380885,
+          "gamma": 0.820927471748464
+        }
+      }
+    },
+    "SolveOptions": {
+      "numberDumps": 0,
+      "ode": {
+        "met": "BDFImp",
+        "tolAbs": 1.0e-4,
+        "tolRel": 1.0e-4,
+        "tmin": "0s",
+        "tmax": "30s",
+        "tstep": "0.5s"
+      },
+      "save": {
+        "resCompression": "Expanded"
+      }
+    },
+    "Vpop": {
+      "VpopOptions": {
+        "vpopPatients": {
+          "tag": "AllPatients"
+        }
+      }
+    }
+  },
+  "locations": {
+    "/": ".",
+    "/Outputs/Results/Chunks/Chunk": null
+  }
+}
