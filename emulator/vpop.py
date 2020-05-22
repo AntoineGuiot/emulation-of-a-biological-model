@@ -12,6 +12,7 @@ class Vpop:
             self,
             name,
             descriptors,
+            y_values,
             sampling_method="lhs",
             number_of_point=100,
             fixed_parameters=None,  # dict({'parameter': value,} **)
@@ -21,6 +22,7 @@ class Vpop:
 
         self.name = name
         self.descriptors = descriptors
+        self.y_values = y_values
         self.sampling_method = sampling_method
         self.number_of_point = number_of_point
         self.fixed_parameters = fixed_parameters
@@ -29,7 +31,7 @@ class Vpop:
         self.distribution = distribution
 
     def sample(self):
-        number_of_parameter = len(self.descriptors)
+        number_of_parameter = len(self.descriptors + self.y_values)
 
         if self.sampling_method == "lhs":
             variable_param_values = sampling.lhs_sampling(
@@ -45,7 +47,10 @@ class Vpop:
             variable_param_values = sampling.random_sampling(
                 self.number_of_point, number_of_parameter
             )
-        variable_param = pd.DataFrame(variable_param_values, columns=self.descriptors)
+
+        y_0_names = [f"{name}_0" for name in self.y_values]
+
+        variable_param = pd.DataFrame(variable_param_values, columns=self.descriptors + y_0_names)
 
         if self.distribution != None:
             variable_param = expon(scale=0.5).ppf(variable_param)
